@@ -28,11 +28,13 @@
                Grid.Row="0"
                Grid.ColumnSpan="4"
                ></Image>
-        <Label x:Name="Resultados" Text="25" BackgroundColor="Black" TextColor="White"
+
+        <Label x:Name="Resultados" Text="0" FontSize="80" VerticalTextAlignment="Center" BackgroundColor="Black" TextColor="White"
                Grid.Row="1"
                Grid.Column="0"
                Grid.ColumnSpan="4"
                ></Label>
+
 
        <Button Text="AC" BackgroundColor="#bd6c09" TextColor="White"
                Grid.Row="2"
@@ -51,7 +53,89 @@
 
         <Button Text="/" BackgroundColor="#bd6c09" TextColor="White"
                Grid.Row="2"
+               Grid.Column="3"
+               ></Button>
+
+
+
+        <Button Text="7" BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="3"
+               Grid.Column="0"
+               ></Button>
+
+        <Button Text="8" BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="3"
+               Grid.Column="1"
+               ></Button>
+
+        <Button Text="9" BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="3"
                Grid.Column="2"
+               ></Button>
+
+        <Button Text="x" BackgroundColor="#bd6c09" TextColor="White"
+               Grid.Row="3"
+               Grid.Column="3"
+               ></Button>
+
+
+        <Button Text="6" BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="4"
+               Grid.Column="0"
+               ></Button>
+
+        <Button Text="5" BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="4"
+               Grid.Column="1"
+               ></Button>
+
+        <Button Text="4" BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="4"
+               Grid.Column="2"
+               ></Button>
+
+        <Button Text="+" BackgroundColor="#bd6c09" TextColor="White"
+               Grid.Row="4"
+               Grid.Column="3"
+               ></Button>
+
+
+        <Button Text="3" BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="5"
+               Grid.Column="0"
+               ></Button>
+
+        <Button Text="2" BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="5"
+               Grid.Column="1"
+               ></Button>
+
+        <Button Text="1" BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="5"
+               Grid.Column="2"
+               ></Button>
+
+        <Button Text="-" BackgroundColor="#bd6c09" TextColor="White"
+               Grid.Row="5"
+               Grid.Column="3"
+               ></Button>
+
+
+        <Button Text="0" BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="6"
+               Grid.Column="0"
+               Grid.ColumnSpan="2" 
+               ></Button>
+
+
+        <Button Text="." BackgroundColor="#8f8579" TextColor="White"
+               Grid.Row="6"
+               Grid.Column="2"
+               ></Button>
+
+        <Button Text="=" BackgroundColor="#bd6c09" TextColor="White"
+               Grid.Row="6"
+               Grid.Column="3"
                ></Button>
 
     </Grid>
