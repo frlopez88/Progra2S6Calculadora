@@ -36,17 +36,17 @@
                ></Label>
 
 
-       <Button Text="AC" BackgroundColor="#bd6c09" TextColor="White"
+       <Button Text="AC" Clicked="ClicAc" BackgroundColor="#bd6c09" TextColor="White"
                Grid.Row="2"
                Grid.Column="0"
                ></Button>
 
-        <Button Text="+/-" BackgroundColor="#bd6c09" TextColor="White"
+        <Button Text="MAX" BackgroundColor="#bd6c09" TextColor="White"
                Grid.Row="2"
                Grid.Column="1"
                ></Button>
 
-        <Button Text="%" BackgroundColor="#bd6c09" TextColor="White"
+        <Button Text="MIN" BackgroundColor="#bd6c09" TextColor="White"
                Grid.Row="2"
                Grid.Column="2"
                ></Button>
@@ -58,17 +58,17 @@
 
 
 
-        <Button Text="7" BackgroundColor="#8f8579" TextColor="White"
+        <Button Text="7" Clicked="ClicBoton7" BackgroundColor="#8f8579" TextColor="White"
                Grid.Row="3"
                Grid.Column="0"
                ></Button>
 
-        <Button Text="8" BackgroundColor="#8f8579" TextColor="White"
+        <Button Text="8" Clicked="ClicBoton8" BackgroundColor="#8f8579" TextColor="White"
                Grid.Row="3"
                Grid.Column="1"
                ></Button>
 
-        <Button Text="9" BackgroundColor="#8f8579" TextColor="White"
+        <Button Text="9" Clicked="ClicBoton9" BackgroundColor="#8f8579" TextColor="White"
                Grid.Row="3"
                Grid.Column="2"
                ></Button>
@@ -79,7 +79,7 @@
                ></Button>
 
 
-        <Button Text="6" BackgroundColor="#8f8579" TextColor="White"
+        <Button Text="4" BackgroundColor="#8f8579" TextColor="White"
                Grid.Row="4"
                Grid.Column="0"
                ></Button>
@@ -89,18 +89,18 @@
                Grid.Column="1"
                ></Button>
 
-        <Button Text="4" BackgroundColor="#8f8579" TextColor="White"
+        <Button Text="6" BackgroundColor="#8f8579" TextColor="White"
                Grid.Row="4"
                Grid.Column="2"
                ></Button>
 
-        <Button Text="+" BackgroundColor="#bd6c09" TextColor="White"
+        <Button Text="+" Clicked="ClicBotonMas" BackgroundColor="#bd6c09" TextColor="White"
                Grid.Row="4"
                Grid.Column="3"
                ></Button>
 
 
-        <Button Text="3" BackgroundColor="#8f8579" TextColor="White"
+        <Button Text="1" BackgroundColor="#8f8579" TextColor="White"
                Grid.Row="5"
                Grid.Column="0"
                ></Button>
@@ -110,12 +110,12 @@
                Grid.Column="1"
                ></Button>
 
-        <Button Text="1" BackgroundColor="#8f8579" TextColor="White"
+        <Button Text="3" BackgroundColor="#8f8579" TextColor="White"
                Grid.Row="5"
                Grid.Column="2"
                ></Button>
 
-        <Button Text="-" BackgroundColor="#bd6c09" TextColor="White"
+        <Button Text="-" Clicked="ClicBotonMenos" BackgroundColor="#bd6c09" TextColor="White"
                Grid.Row="5"
                Grid.Column="3"
                ></Button>
@@ -133,7 +133,7 @@
                Grid.Column="2"
                ></Button>
 
-        <Button Text="=" BackgroundColor="#bd6c09" TextColor="White"
+        <Button Text="="  Clicked="ClicBotonIgual" BackgroundColor="#bd6c09" TextColor="White"
                Grid.Row="6"
                Grid.Column="3"
                ></Button>
